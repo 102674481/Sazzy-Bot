@@ -16,9 +16,11 @@ Running the command-line version of Sazzy_B0T is simple:
 > git clone https://github.com/102674481/Sazzy-Bot
 > bundler install
 > bundler exec rake
+open /bin/megahal and add your Discord API token and client id
 > gem build (megahal)
-> get install megahal
+> gem install megahal
 > megahal
+Copy Url invite for the bot
 +----------------------------------------------------------+
 |                                                          |
 |  #    #  ######   ####     ##    #    #    ##    #       |
