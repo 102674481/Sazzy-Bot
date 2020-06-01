@@ -1,0 +1,235 @@
+#!/usr/bin/env ruby
+
+require 'megahal'
+require 'highline/import'
+require 'ruby-progressbar'
+require 'logger'
+#insert your own stuff below
+bot = Discordrb::Bot.new token: '', client_id: ''
+puts "This bot's invite URL is #{bot.invite_url}."
+
+
+
+say("<%= color('" + <<-EOS + "', BOLD) %>")
++----------------------------------------------------------+
+|                                                          |
+|  #    #  ######   ####     ##    #    #    ##    #       |
+|  ##  ##  #       #    #   #  #   #    #   #  #   #       |
+|  # ## #  #####   #   #  #        ######  #    #  #       |
+|  #    #  #       #  ###  ######  #    #  ######  #       |
+|  #    #  #       #    #  #    #  #    #  #    #  #       |
+|  #    #  ######   ####   #    #  #    #  #    #  ######  |
+|                                                          |
+|    Type "/help" for options and "/quit" to terminate.    |
++----------------------------------------------------------+
+EOS
+
+
+class MegaLog
+  def initialize
+    @logger = Logger.new("megahal.log")
+    @logger.formatter = proc { |_, _, _, msg| msg + "\n" }
+    @logger.info "MegaHALv10\nStart at: [#{Time.now.strftime("%Y-%m-%d %H:%M:%S")}]"
+  end
+  def exit
+    @logger.info "Stop at: [#{Time.now.strftime("%Y-%m-%d %H:%M:%S")}]"
+  end
+  def error(message)
+    @logger.error "(#{message})"
+    message = HighLine.color("(#{message})", :dark, :red)
+    say(message)
+  end
+  def status(message)
+    @logger.info "(#{message})"
+    message = HighLine.color("(#{message})", :dark, :yellow)
+    say(message)
+  end
+  def user(message)
+    @logger.info "USER: #{message}"
+  end
+  def puts(message)
+    @logger.info "MH10: #{message}"
+    message = HighLine.color(message, :bold, :green)
+    say(message)
+  end
+end
+
+log = MegaLog.new
+
+def list_menu(megahal, log)
+  choose do |menu|
+   # menu.prompt = "? "
+    menu.choice(:cancel) do
+      log.status('cancelled')
+      return
+    end
+    menu.choice(:default) do
+      bar = ProgressBar.create(title: "Morphing", total: nil)
+      megahal.become(:default, bar)
+      bar.finish
+      log.status('brain changed to the original loebner prize version')
+    end
+    menu.choice(:aliens) do
+      bar = ProgressBar.create(title: "Morphing", total: nil)
+      megahal.become(:aliens, bar)
+      bar.finish
+      log.status('brain changed to bishop from aliens')
+    end
+    menu.choice(:ferris) do
+      bar = ProgressBar.create(title: "Morphing", total: nil)
+      megahal.become(:ferris, bar)
+      bar.finish
+      log.status('brain changed to ferris bueller')
+    end
+    menu.choice(:pepys) do
+      bar = ProgressBar.create(title: "Morphing", total: nil)
+      megahal.become(:pepys, bar)
+      bar.finish
+      log.status('brain changed to samuel pepys')
+    end
+    menu.choice(:pulp) do
+      bar = ProgressBar.create(title: "Morphing", total: nil)
+      megahal.become(:pulp, bar)
+      bar.finish
+      log.status('brain changed to marsellus wallace from pulp fiction')
+    end
+    menu.choice(:sherlock) do
+      bar = ProgressBar.create(title: "Morphing", total: nil)
+      megahal.become(:sherlock, bar)
+      bar.finish
+      log.status('brain changed to sherlock holmes')
+    end
+    menu.choice(:startrek) do
+      bar = ProgressBar.create(title: "Morphing", total: nil)
+      megahal.become(:startrek, bar)
+      bar.finish
+      log.status('brain changed to data from star trek')
+    end
+    menu.choice(:starwars) do
+      bar = ProgressBar.create(title: "Morphing", total: nil)
+      megahal.become(:starwars, bar)
+      bar.finish
+      log.status('brain changed to threepio from star wars')
+    end
+  end
+ bot.message(log.puts(megahal.reply(nil)))
+end
+
+def help_menu(megahal, log,event)
+  choose do |menu|
+    
+   event.respond "1. cancel\n2. reset\n3. brain\n4. train\n5. load\n6. save\n7. ignore\n8. quit"
+    menu.prompt = "? "
+    menu.choice(:cancel) do
+      log.status('cancelled')
+      return
+    end
+    menu.choice(:reset) do
+      megahal.clear
+      log.status('brain cleared')
+    end
+    menu.choice(:brain) do
+      log.status('show brain menu')
+      list_menu(megahal, log)
+    end
+    menu.choice(:train) do
+      log.status('train on a text file')
+      filename = ask("Filename: ")
+      unless File.exists?(filename)
+        log.error("no such file")
+      else
+        begin
+          bar = ProgressBar.create(title: "Training", total: nil)
+          megahal.train(filename, bar)
+          bar.finish
+          log.status("training succesfull for '#{filename}'")
+          log.puts(megahal.reply(nil))
+        rescue => e
+          log.error(e.message)
+        end
+      end
+    end
+    menu.choice(:load) do
+      log.status('load a brain file')
+      filename = ask("Filename: ")
+      unless File.exists?(filename)
+        log.error("no such file")
+      else
+        begin
+          bar = ProgressBar.create(title: "Loading", total: nil)
+          megahal.load(filename, bar)
+          bar.finish
+          log.status("loading succesfull for '#{filename}'")
+          log.puts(megahal.reply(nil))
+        rescue => e
+          log.error(e.message)
+        end
+      end
+    end
+    menu.choice(:save) do
+      log.status('save a brain file')
+      filename = ask("Filename: ")
+      if File.exists?(filename)
+        log.error("file already exists")
+      else
+        begin
+          bar = ProgressBar.create(title: "Saving", total: nil)
+          megahal.save(filename, bar)
+          bar.finish
+          log.status("saving succesfull for '#{filename}'")
+        rescue => e
+          log.error(e.message)
+        end
+      end
+    end
+    if megahal.learning
+      menu.choice(:ignore) do
+        megahal.learning = false
+        log.status('stop learning from user input')
+      end
+    else
+      menu.choice(:learn) do
+        megahal.learning = true
+        log.status('start learning from user input')
+      end
+    end
+    menu.choice(:quit) do
+      log.status('exiting')
+      exit
+    end
+  end
+end
+
+megahal = MegaHAL.new
+
+
+
+greeting = megahal.reply(nil)
+log.puts(greeting)
+#bot.send_message("712618251514806302",greeting)
+
+
+
+bot.message  do |event|
+   input = event.content
+   puts input
+    log.user(event.content)
+    if input.downcase =~ /^[\/\\#@](help|menu|info|list|h|\?)$/
+      log.status('show help menu')
+      help_menu(megahal, log,event)
+    elsif input.downcase =~ /^[\/\\#@](quit|exit|q|x)$/
+      log.status('exiting')
+      exit
+    else
+      respond = megahal.reply(event.content)
+      log.puts(respond)
+      event.respond respond
+
+    end
+ 
+ensure
+  log.exit
+end
+
+
+bot.run
