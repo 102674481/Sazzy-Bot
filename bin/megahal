@@ -4,8 +4,8 @@ require 'megahal'
 require 'highline/import'
 require 'ruby-progressbar'
 require 'logger'
-#insert your own stuff below
-bot = Discordrb::Bot.new token: '', client_id: ''
+
+bot = Discordrb::Bot.new token: 'NzEyNjEzMTA5MTA1MTY0MzA5.XsUHTg.uKVk_FnWiHXP1kwdRS4hc4VKcCY', client_id: '712613109105164309'
 puts "This bot's invite URL is #{bot.invite_url}."
 
 
@@ -56,100 +56,121 @@ end
 
 log = MegaLog.new
 
-def list_menu(megahal, log)
-  choose do |menu|
-   # menu.prompt = "? "
-    menu.choice(:cancel) do
-      log.status('cancelled')
-      return
-    end
-    menu.choice(:default) do
-      bar = ProgressBar.create(title: "Morphing", total: nil)
-      megahal.become(:default, bar)
+def list_menu(megahal, log,event)
+  #event respond works but the following line does not
+  event.user.await(:option)  do  |input_event|
+    
+    option = input_event.message.content
+    
+    puts option + " Personality command"
+
+    command = @input 
+  case command
+    when "*cancel"
+    
+     log.status('cancelled')
+    
+    when "*default"
+   #Options
+     bar = ProgressBar.create(title: "Morphing", total: nil)
+    megahal.become(:default, bar)
       bar.finish
       log.status('brain changed to the original loebner prize version')
-    end
-    menu.choice(:aliens) do
+    
+    when "*aliens"
+    
       bar = ProgressBar.create(title: "Morphing", total: nil)
       megahal.become(:aliens, bar)
       bar.finish
       log.status('brain changed to bishop from aliens')
-    end
-    menu.choice(:ferris) do
+    
+    when "*ferris"
+    
       bar = ProgressBar.create(title: "Morphing", total: nil)
       megahal.become(:ferris, bar)
       bar.finish
       log.status('brain changed to ferris bueller')
-    end
-    menu.choice(:pepys) do
+    
+    when "*pepys"
+    
       bar = ProgressBar.create(title: "Morphing", total: nil)
       megahal.become(:pepys, bar)
       bar.finish
       log.status('brain changed to samuel pepys')
-    end
-    menu.choice(:pulp) do
+    
+    when "*pulp"
+    
       bar = ProgressBar.create(title: "Morphing", total: nil)
       megahal.become(:pulp, bar)
       bar.finish
       log.status('brain changed to marsellus wallace from pulp fiction')
-    end
-    menu.choice(:sherlock) do
-      bar = ProgressBar.create(title: "Morphing", total: nil)
+    
+    when "*sherlock"
+    
+     bar = ProgressBar.create(title: "Morphing", total: nil)
       megahal.become(:sherlock, bar)
       bar.finish
       log.status('brain changed to sherlock holmes')
-    end
-    menu.choice(:startrek) do
-      bar = ProgressBar.create(title: "Morphing", total: nil)
+    
+    when "*startrek"
+    
+     bar = ProgressBar.create(title: "Morphing", total: nil)
       megahal.become(:startrek, bar)
       bar.finish
       log.status('brain changed to data from star trek')
-    end
-    menu.choice(:starwars) do
-      bar = ProgressBar.create(title: "Morphing", total: nil)
-      megahal.become(:starwars, bar)
-      bar.finish
+    
+    when "*starwars"
+    
+     bar = ProgressBar.create(title: "Morphing", total: nil)
+     megahal.become(:starwars, bar)
+    bar.finish
       log.status('brain changed to threepio from star wars')
+    else
+    event.respond "Personallity not found"
     end
   end
- bot.message(log.puts(megahal.reply(nil)))
 end
 
-def help_menu(megahal, log,event)
-  choose do |menu|
-    
-   event.respond "1. cancel\n2. reset\n3. brain\n4. train\n5. load\n6. save\n7. ignore\n8. quit"
-    menu.prompt = "? "
-    menu.choice(:cancel) do
+def help_menu(megahal, log,event,command)
+  
+    case command
+    when "*cancel" 
       log.status('cancelled')
       return
-    end
-    menu.choice(:reset) do
+    when "*reset" 
       megahal.clear
       log.status('brain cleared')
-    end
-    menu.choice(:brain) do
+    when "*brain" 
       log.status('show brain menu')
-      list_menu(megahal, log)
-    end
-    menu.choice(:train) do
+      event.respond "Choose personality to load *keyword\n1.cancel\n2.default\n3.aliens(bishop)\n4.ferris\n5.pepys\n6.pulp\n7.sherlock\n8.startrek(data)\n9.starwars(c3p0)"
+      list_menu(megahal, log,event)
+    when "*train"
       log.status('train on a text file')
-      filename = ask("Filename: ")
-      unless File.exists?(filename)
+      event.respond "train on a text file\nplease type *filename"
+      @file = ""
+      event.user.await(:file)  do  |input_event|
+        @input = ""
+        option = input_event.message.content
+        @input = file
+        puts @file + " *File Selected"
+        @file = @input.gsub(/\*/,'')
+       end
+
+      unless File.exists?(@file)
         log.error("no such file")
       else
         begin
           bar = ProgressBar.create(title: "Training", total: nil)
-          megahal.train(filename, bar)
+          megahal.train(@file, bar)
           bar.finish
-          log.status("training succesfull for '#{filename}'")
-          log.puts(megahal.reply(nil))
+          log.status("training succesfull for '#{@file}'")
+          event.respond (log.puts(megahal.reply(nil)))
         rescue => e
           log.error(e.message)
         end
       end
-    end
-    menu.choice(:load) do
+    
+    when "*load" 
       log.status('load a brain file')
       filename = ask("Filename: ")
       unless File.exists?(filename)
@@ -165,8 +186,7 @@ def help_menu(megahal, log,event)
           log.error(e.message)
         end
       end
-    end
-    menu.choice(:save) do
+    when "*save"
       log.status('save a brain file')
       filename = ask("Filename: ")
       if File.exists?(filename)
@@ -181,24 +201,25 @@ def help_menu(megahal, log,event)
           log.error(e.message)
         end
       end
-    end
-    if megahal.learning
-      menu.choice(:ignore) do
+    
+  when "*ignore" 
         megahal.learning = false
         log.status('stop learning from user input')
-      end
-    else
-      menu.choice(:learn) do
+      
+  when "*learn"
         megahal.learning = true
         log.status('start learning from user input')
-      end
-    end
-    menu.choice(:quit) do
+    
+  when "*exit" 
       log.status('exiting')
       exit
-    end
+    
+  else 
+    event.respond "Unrecognized option"
   end
 end
+
+
 
 megahal = MegaHAL.new
 
@@ -208,27 +229,42 @@ greeting = megahal.reply(nil)
 log.puts(greeting)
 #bot.send_message("712618251514806302",greeting)
 
+#bot.message(contains: /^[\/\\#@](help|menu|info|list|h|\?)$/ ) do |event|
+ # event.respond "Message Recieved"
+  #event.respond "Respond with a *keyword\n1. cancel\n2. reset\n3. brain\n4. train\n5. load\n6. save\n7. ignore\n8. quit\n?:"
+  #@input = " "
+  # 
+   #event.user.await(:option)  do  |input_event|
 
+    #option = input_event.message.content
+    #@input = option
+    #puts @input + " Command Selected"
+    #help_menu(megahal,log,event,@input)
+   #end
+  
 
-bot.message  do |event|
-   input = event.content
-   puts input
-    log.user(event.content)
-    if input.downcase =~ /^[\/\\#@](help|menu|info|list|h|\?)$/
-      log.status('show help menu')
-      help_menu(megahal, log,event)
-    elsif input.downcase =~ /^[\/\\#@](quit|exit|q|x)$/
-      log.status('exiting')
-      exit
-    else
-      respond = megahal.reply(event.content)
-      log.puts(respond)
-      event.respond respond
-
-    end
- 
-ensure
+  #Help command
+#end
+bot.message(contains: /^[\/\\#@](quit|exit|q|x)$/ ) do |event|
+  event.respond "MegaHal is Exiting"
+  log.status('exiting')
   log.exit
+  exit
+  
+  
+  
+  #exit command command
+end
+#
+
+bot.message(contains: /^[^\/\*]\w+/)  do |event|
+    
+   puts event.content
+    log.user(event.content)
+      response = megahal.reply(event.content)
+      log.puts(response)
+      event.respond response
+count
 end
 
 

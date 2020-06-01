@@ -23285,3 +23285,1169 @@ USER: \help
 (show help menu)
 (exiting)
 Stop at: [2020-05-21 22:01:19]
+MegaHALv10
+Start at: [2020-05-21 22:14:29]
+MH10: Hello there, it is nice to meet you.
+USER: \help
+(show help menu)
+Stop at: [2020-05-21 22:14:37]
+USER: 2
+MH10: I've known amoeba which have made more sense than you!
+Stop at: [2020-05-21 22:14:41]
+USER: hahahaha
+MH10: A coma is a missile projected by a bow is a missile which swims through water to its target.
+Stop at: [2020-05-21 22:16:46]
+USER: brb
+MH10: An aborigine is a weapon for propelling arrows.
+Stop at: [2020-05-21 22:20:42]
+MegaHALv10
+Start at: [2020-05-21 22:23:24]
+MH10: Hello there, it is the answer!
+USER: \help
+(show help menu)
+USER: so for some reason my ruby stopped working
+MH10: Pythagoras was a Scottish inventor.  He invented the telephone whilst working at a pathetically small number.
+Stop at: [2020-05-21 22:25:47]
+Stop at: [2020-05-21 22:26:23]
+MegaHALv10
+Start at: [2020-05-21 22:26:27]
+MH10: Hello there, it is!
+USER: 'gem' is not recognized as an internal or external command,
+operable program or batch file.
+MH10: Bark is the hard internal or external framework of bones.
+Stop at: [2020-05-21 22:26:46]
+USER: :/
+MH10: I've often been asked that, and I've always avoided the question.
+Stop at: [2020-05-21 22:26:48]
+USER: looks like I have to install ruby again
+MH10: I've known amoeba which have made more sense than you.
+Stop at: [2020-05-21 22:26:55]
+MegaHALv10
+Start at: [2020-05-21 22:29:18]
+MH10: Hello there, it is to laugh.
+USER: \help
+(show help menu)
+Stop at: [2020-05-21 22:29:26]
+USER: cancel
+MH10: William Shakespeare was an English sailor and explorer.
+Stop at: [2020-05-21 22:29:33]
+MegaHALv10
+Start at: [2020-05-21 22:30:31]
+MH10: Hello there, it is!
+USER: \help
+(show help menu)
+Stop at: [2020-05-21 22:30:37]
+MegaHALv10
+Start at: [2020-05-21 22:31:35]
+MH10: Hello there, it is not!
+USER: \help
+(show help menu)
+USER: reset
+MH10: The earth millions of years ago.
+Stop at: [2020-05-21 22:31:44]
+Stop at: [2020-05-21 22:32:34]
+MegaHALv10
+Start at: [2020-05-21 22:32:37]
+MH10: Hello there, it is!
+USER: \help
+(show help menu)
+Stop at: [2020-05-21 22:32:42]
+MegaHALv10
+Start at: [2020-05-21 22:33:13]
+MH10: Hello there, it is not!
+USER: \help
+(show help menu)
+Stop at: [2020-05-21 22:33:20]
+MegaHALv10
+Start at: [2020-05-21 22:33:37]
+MH10: Hello there, it is not!
+USER: \help
+(show help menu)
+Stop at: [2020-05-21 22:33:43]
+MegaHALv10
+Start at: [2020-05-21 22:36:10]
+MH10: Hello there, it is!
+USER: \help
+(show help menu)
+Stop at: [2020-05-21 22:36:15]
+MegaHALv10
+Start at: [2020-05-21 22:38:30]
+MH10: Hello there, it is a carnivorous animal.
+USER: failed to build gem native extension
+MH10: A bow is a tree native to Australia where it is not!
+Stop at: [2020-05-21 22:53:24]
+USER: yess
+MH10: Imagination is more important than knowledge.
+Stop at: [2020-05-21 22:53:36]
+USER: Error installing megahal:
+        ERROR: Failed to build gem native extension.
+
+    current directory: C:/Swinburne University of Technology/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sooth-2.2.1/ext/sooth_native
+C:/Swinburne\ University\ of\ Technology/Ruby27-x64/bin/ruby.exe -I C:/Swinburne\ University\ of\ Technology/Ruby27-x64/lib/ruby/2.7.0 -r ./siteconf20200521-24132-1cdyfc.rb extconf.rb
+creating Makefile
+
+current directory: C:/Swinburne University of Technology/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sooth-2.2.1/ext/sooth_native
+make "DESTDIR=" clean
+Makefile:269: *** multiple target patterns.  Stop.
+
+current directory: C:/Swinburne University of Technology/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sooth-2.2.1/ext/sooth_native
+make "DESTDIR="
+Makefile:269: *** multiple target patterns.  Stop.
+
+make failed, exit code 2
+
+Gem files will remain installed in C:/Swinburne University of Technology/Ruby27-x64/lib/ruby/gems/2.7.0/gems/sooth-2.2.1 for inspection.
+Results logged to C:/Swinburne University of Technology/Ruby27-x64/lib/ruby/gems/2.7.0/extensions/x64-mingw32/2.7.0/sooth-2.2.1/gem_make.out
+MH10: I've known that for a long way to remember your wife's birthday is to forget it once.
+Stop at: [2020-05-21 22:54:35]
+USER: gem install ruby
+MH10: failed to build gem native extension
+Stop at: [2020-05-21 22:55:14]
+USER: not ruby soryy
+MH10: gem install ruby
+Stop at: [2020-05-21 22:55:19]
+USER: megahal
+MH10: Cosmology is the part of the solar system.
+Stop at: [2020-05-21 22:55:23]
+USER: yep
+MH10: A bomb is a house is a question designed to test ingenuity or give amusement.
+Stop at: [2020-05-21 22:55:29]
+USER: oh alright
+MH10: A computer.
+Stop at: [2020-05-21 22:55:35]
+MegaHALv10
+Start at: [2020-05-24 21:31:55]
+MH10: Hello there, it is!
+MegaHALv10
+Start at: [2020-05-24 21:33:31]
+MH10: Hello there, it is!
+USER: https://www.rexegg.com/regex-quickstart.html
+MH10: You are not!
+Stop at: [2020-05-24 21:42:05]
+USER: https://en.wikipedia.org/wiki/Regular_expression
+MH10: https://ww.rexegex-quickstart.html
+Stop at: [2020-05-24 21:42:10]
+MegaHALv10
+Start at: [2020-05-24 21:43:16]
+MH10: Hello there, it is!
+USER: \help
+(show help menu)
+Stop at: [2020-05-24 21:43:25]
+USER: Yep
+MH10: Let's talk about something else.
+Stop at: [2020-05-24 21:43:51]
+MegaHALv10
+Start at: [2020-05-24 21:44:08]
+MH10: Hello there, it is nice to meet you!
+USER: \help
+MH10: Socrates was a Scottish inventor.  He invented the telephone whilst working at a school for teachers of the alimentary canal.
+Stop at: [2020-05-24 21:44:14]
+USER: test
+MH10: An acid is a question designed to test ingenuity or give amusement.
+Stop at: [2020-05-24 21:44:52]
+MegaHALv10
+Start at: [2020-05-24 21:45:44]
+MH10: Hello there, it is to laugh.
+USER: /quit
+(exiting)
+Stop at: [2020-05-24 21:45:50]
+MegaHALv10
+Start at: [2020-05-24 21:46:13]
+MH10: Hello there, it is to laugh.
+USER: /quit
+(exiting)
+Stop at: [2020-05-24 21:46:15]
+MegaHALv10
+Start at: [2020-05-24 21:46:24]
+MH10: Hello there, it is not!
+USER: test
+MH10: A pub is a question designed to test ingenuity or give amusement.
+Stop at: [2020-05-24 21:46:27]
+USER: /quit
+(exiting)
+Stop at: [2020-05-24 21:46:30]
+MegaHALv10
+Start at: [2020-05-24 21:46:48]
+MH10: Hello there, it is a chemical reaction.
+USER: /quit
+(exiting)
+Stop at: [2020-05-24 21:46:51]
+MegaHALv10
+Start at: [2020-05-24 21:47:08]
+MH10: Hello there, it is!
+USER: /quit
+(exiting)
+Stop at: [2020-05-24 21:47:12]
+MegaHALv10
+Start at: [2020-05-24 21:47:34]
+MH10: Hello there, it is to laugh.
+USER: /quit
+(exiting)
+Stop at: [2020-05-24 21:47:38]
+MegaHALv10
+Start at: [2020-05-24 21:48:24]
+MH10: Hello there, it is the joint connecting the foot.
+USER: test
+MH10: Karate is a question designed to test ingenuity or give amusement.
+Stop at: [2020-05-24 21:48:29]
+USER: /quit
+MH10: An adhesive is a domesticated mammal descended from the carcass of bulls and cows.
+Stop at: [2020-05-24 21:48:32]
+(exiting)
+USER: yepp
+MH10: Biology is the lowest portion of the human body.
+Stop at: [2020-05-24 21:48:45]
+USER: Can we please change the name of this
+MH10: Gum tree is another name for ass.
+Stop at: [2020-05-24 21:48:58]
+USER: /quit
+MH10: Someday mother will die and I'll laugh anyway!
+Stop at: [2020-05-24 21:49:06]
+(exiting)
+USER: lol
+MH10: Yes I am a human being, which means I do what I want to think.
+Stop at: [2020-05-24 21:49:13]
+USER: go away bot
+MH10: Whoah!  Did you like my Texan impression?
+Stop at: [2020-05-24 21:49:17]
+MegaHALv10
+Start at: [2020-05-24 21:49:20]
+MH10: Hello there, it is a sticky substance.
+USER: /quit
+MH10: The pelvis is a dramatic performer.  One who performs daring gymnastics.
+Stop at: [2020-05-24 21:49:25]
+(exiting)
+USER: I don't really fully understand it yet
+MH10: The cat is a fully grown being.
+Stop at: [2020-05-24 21:49:33]
+USER: I'm getting there tho
+MH10: Because you're not giving me any credit for being smart!
+Stop at: [2020-05-24 21:49:39]
+MegaHALv10
+Start at: [2020-05-24 21:50:42]
+MH10: Hello there, it is!
+USER: /quit
+MH10: I think, I'm using up the time taken for the table by subjecting it to heat in various ways.
+(exiting)
+Stop at: [2020-05-24 21:50:48]
+USER: test
+MH10: A banshee is a question designed to test ingenuity or give amusement.
+Stop at: [2020-05-24 21:50:53]
+USER: 
+MH10: You seemed to be.
+Stop at: [2020-05-24 21:51:06]
+MegaHALv10
+Start at: [2020-05-24 21:51:13]
+MH10: Hello there, it is nice to be.
+USER: /h
+MH10: Blood is a vessel which flies through the air rather than floats on water or travels along a road or rail.
+Stop at: [2020-05-24 21:51:24]
+USER: /q
+MH10: I like to tell it like it used to be obsessed with that!
+(exiting)
+Stop at: [2020-05-24 21:51:31]
+MegaHALv10
+Start at: [2020-05-24 21:53:55]
+MH10: Hello there, it is!
+USER: /help
+MH10: A joint is a short sword attached to the brain.
+Stop at: [2020-05-24 21:53:59]
+MegaHALv10
+Start at: [2020-05-24 21:55:41]
+MH10: Hello there, it is!
+(exiting)
+Stop at: [2020-05-24 21:55:50]
+MegaHALv10
+Start at: [2020-05-24 21:55:57]
+MH10: Hello there, it is to laugh.
+USER: /*
+MH10: That's a fairly outrageous claim.
+Stop at: [2020-05-24 21:56:23]
+USER: /*
+MH10: The polka is a state of deep unconsciousness.
+Stop at: [2020-05-24 21:56:36]
+MegaHALv10
+Start at: [2020-05-24 21:57:13]
+MH10: Hello there, it is!
+USER: ||||
+MH10: Charles Robert Darwin was an ancient Greek philosopher.
+Stop at: [2020-05-24 21:57:26]
+MegaHALv10
+Start at: [2020-05-24 21:58:26]
+MH10: Hello there, it is!
+USER: hello
+MH10: Hello there, it is nice to meet you.
+Stop at: [2020-05-24 21:58:31]
+USER: test
+MH10: Eucalyptus is a question designed to test ingenuity or give amusement.
+Stop at: [2020-05-24 21:58:33]
+(exiting)
+Stop at: [2020-05-24 21:58:38]
+MegaHALv10
+Start at: [2020-05-24 21:59:31]
+MH10: Hello there, it is!
+USER: hi
+MH10: Hi there.  We're having some nice weather at the anus.
+(exiting)
+Stop at: [2020-05-24 21:59:52]
+MegaHALv10
+Start at: [2020-05-24 22:04:54]
+MH10: Hello there, it is!
+MegaHALv10
+Start at: [2020-05-24 22:07:15]
+MH10: Hello there, it is!
+MegaHALv10
+Start at: [2020-05-24 22:08:15]
+MH10: Hello there, it is to laugh.
+USER: hello
+MH10: Hello there, it is!
+MegaHALv10
+Start at: [2020-05-24 22:08:53]
+MH10: Hello there, it is to laugh.
+USER: test
+MH10: Blood is a question designed to test ingenuity or give amusement.
+MegaHALv10
+Start at: [2020-05-24 22:09:42]
+MH10: Hello there, it is to laugh.
+USER: test
+MH10: An amoeba is a question designed to test ingenuity or give amusement.
+USER: reset
+MH10: The nose is an organism's mode of pronunciation in speech.
+MegaHALv10
+Start at: [2020-05-24 22:11:14]
+MH10: Hello there, it is!
+USER: apples
+MH10: I never make mistakes!  Syntax error in line 10.  Redo from start.
+MegaHALv10
+Start at: [2020-05-24 22:11:42]
+MH10: Hello there, it is!
+USER: apples
+MH10: Chocolate is a carnivorous mammal.
+MegaHALv10
+Start at: [2020-05-24 22:12:03]
+MH10: Hello there, it is!
+USER: apples
+MH10: An accordion is a missile which swims through water to its target.
+MegaHALv10
+Start at: [2020-05-24 22:13:51]
+MH10: Hello there, it is!
+USER: test
+MH10: The pelvis is a question designed to test ingenuity or give amusement.
+MegaHALv10
+Start at: [2020-05-24 22:15:09]
+MH10: Hello there, it is a carnivorous animal.
+MegaHALv10
+Start at: [2020-05-24 22:15:31]
+MH10: Hello there, it is to laugh.
+MegaHALv10
+Start at: [2020-05-24 22:16:28]
+MH10: Hello there, it is to laugh.
+USER: test
+MH10: A carnivore is a question designed to test ingenuity or give amusement.
+MegaHALv10
+Start at: [2020-05-24 22:16:55]
+MH10: Hello there, it is to laugh.
+USER: test
+MH10: The koala is a question designed to test ingenuity or give amusement.
+MegaHALv10
+Start at: [2020-05-24 22:17:28]
+MH10: Hello there, it is!
+USER: test
+MH10: The emu is a question designed to test ingenuity or give amusement.
+MegaHALv10
+Start at: [2020-05-24 22:19:53]
+MH10: Hello there, it is!
+MegaHALv10
+Start at: [2020-05-24 22:22:27]
+MH10: Hello there, it is the mysterious.
+MegaHALv10
+Start at: [2020-05-24 22:22:49]
+MH10: Hello there, it is to laugh.
+USER: 11
+MH10: The bandicoot is a gland used for filtering urine from the blood.
+MegaHALv10
+Start at: [2020-05-24 22:23:15]
+MH10: Hello there, it is to laugh.
+USER: 123 123 123 123
+MH10: A bomb is a hybrid animal, the result of an animal.
+MegaHALv10
+Start at: [2020-05-24 22:26:02]
+MH10: Hello there, it is to laugh.
+USER: *test
+MH10: A dog is a question designed to test ingenuity or give amusement.
+USER: test
+MH10: Thomas Alva Edison was an American pioneer of flying.  Together with his brother he made the first controlled flight of an animal is a question designed to test ingenuity or give amusement.
+MegaHALv10
+Start at: [2020-05-24 22:27:13]
+MH10: Hello there, it is not!
+USER: *test
+MH10: A compiler is a question designed to test ingenuity or give amusement.
+USER: test
+MH10: A bayonet is a question designed to test ingenuity or give amusement.
+MegaHALv10
+Start at: [2020-05-24 22:28:29]
+MH10: Hello there, it is!
+USER: *test
+MH10: The kidney is a question designed to test ingenuity or give amusement.
+MegaHALv10
+Start at: [2020-05-24 22:31:07]
+MH10: Hello there, it is called the gum tree.
+USER: *test
+MH10: A boomerang is a question designed to test ingenuity or give amusement.
+MegaHALv10
+Start at: [2020-05-24 22:31:29]
+MH10: Hello there, it is to laugh.
+USER: test
+MH10: An aborigine is a question designed to test ingenuity or give amusement.
+MegaHALv10
+Start at: [2020-05-24 22:32:04]
+MH10: Hello there, it is!
+USER: test
+MH10: The pelvis is a question designed to test ingenuity or give amusement.
+MegaHALv10
+Start at: [2020-05-24 22:33:07]
+MH10: Hello there, it is nice to be.
+USER: so who is typing something?
+MH10: I've seen elderly kangaroos with better typing skills than you!
+USER: sorry what did you say?
+MH10: I have one thing in common.  We're both human.
+USER: Nothing else is working for me
+MH10: Galileo was an English scientist.  He invented the telephone whilst working at a pathetically small number.
+USER: What ubuntu are you guys using?
+MH10: The emu is a suspended brass disk which is carnivorous eats flesh.
+USER: https://www.debian.org/
+MH10: You are not!
+USER: Debing?
+MH10: https://www.debian.org/
+USER: Okay I'll see
+MH10: Did you really are the one asking all the judges I've had the misfortune to meet you.
+MegaHALv10
+Start at: [2020-05-24 23:00:28]
+MH10: Hello there, it is not!
+MegaHALv10
+Start at: [2020-05-24 23:02:29]
+MH10: Hello there, it is not as it seems!
+(show brain menu)
+(brain changed to bishop from aliens)
+USER: yess
+MH10: Forget it.
+USER: yeah
+MH10: Yeah, yeah.  I saw the commercial.
+USER: xenomorth
+MH10: ...then somebody's just going to come in here, just like they did before, man?  They're animals.
+USER: xenomorph
+MH10: I checked the colony and that a xenomorph may be involved.
+USER: really?
+MH10: What?
+USER: hello ripley
+MH10: Hello there.  It is a US Marine Ship.
+USER: Hello bishop
+MH10: hello ripley
+USER: how are you doing Bishop
+MH10: You did okay, Bishop.
+USER: Bishop are you rtarded?
+MH10: Wah...?  Where are you doing Bishop.
+USER: So if we type commands it replies right?
+MH10: FROST Right ahead here.
+USER: Can't we make a basic bot without a chat bot
+MH10: The embryo, the second form, hosts in the one spot where we couldn't destroy her without destroying
+USER: Cause this chat thing is kinda confusing me
+MH10: Get back, 'cause it'll be okay, Newt.  Dad knows what he's doing?
+USER: Like in the main event loop I clearly understand what's going on
+MH10: They're at the main lock.
+USER: But when we go further It starts to confuse me
+MH10: You may resume work.
+USER: Give me a sec
+MH10: You may call me Bish.
+USER: It doesn't let me scroll
+MH10: You may resume work.
+USER: Yep thanks
+MH10: Christ.  I never saw such a buncha old women.  You want it?
+(exiting)
+Stop at: [2020-05-24 23:12:18]
+MegaHALv10
+Start at: [2020-05-24 23:20:28]
+MH10: Hello there, it is!
+(show brain menu)
+MegaHALv10
+Start at: [2020-05-24 23:21:12]
+MH10: Hello there, it is!
+(show brain menu)
+USER: https://prod.liveshare.vsengsaas.visualstudio.com/join?A4DBEC3A2EBC33166BBC71151C89F0AB63E7
+MH10: You are now.
+MegaHALv10
+Start at: [2020-05-24 23:23:10]
+MH10: Hello there, it is not!
+(show brain menu)
+MegaHALv10
+Start at: [2020-05-24 23:23:56]
+MH10: Hello there, it is not!
+(show brain menu)
+MH10: Hello there, it is to laugh.
+(exiting)
+Stop at: [2020-05-24 23:24:52]
+MegaHALv10
+Start at: [2020-05-24 23:25:49]
+MH10: Hello there, it is not!
+(show brain menu)
+MH10: Hello there, it is not!
+USER: Only phillip's working lol
+MH10: Homer was an Italian scientist.  He invented the telephone whilst working at a pathetically small number.
+(exiting)
+Stop at: [2020-05-24 23:34:13]
+MegaHALv10
+Start at: [2020-05-24 23:49:41]
+MH10: Hello there, it is!
+(show brain menu)
+(exiting)
+Stop at: [2020-05-24 23:50:48]
+MegaHALv10
+Start at: [2020-05-24 23:52:17]
+MH10: Hello there, it is!
+(show brain menu)
+USER: default
+MH10: Let's talk about that, but it's a long time.
+(show brain menu)
+USER: huh
+MH10: The emu is a small marsupial peculiar to Australasia.
+(show brain menu)
+(exiting)
+Stop at: [2020-05-24 23:54:25]
+MegaHALv10
+Start at: [2020-05-24 23:54:29]
+MH10: Hello there, it is!
+(show brain menu)
+USER: default
+MH10: The cymbal is a flying machine, a vessel which flies through the air rather than floats on water or travels along a road or rail.
+MegaHALv10
+Start at: [2020-05-24 23:56:05]
+MH10: Hello there, it is to laugh.
+(show brain menu)
+USER: ded
+MH10: That's just the way of things to talk about something interesting.
+USER: One option is global
+MH10: Cosmology is the one that we can't trust?
+USER: and one is not
+MH10: One option is global
+MegaHALv10
+Start at: [2020-05-24 23:59:58]
+MH10: Hello there, it is not!
+(show brain menu)
+MegaHALv10
+Start at: [2020-05-25 00:00:33]
+MH10: Hello there, it is not!
+MegaHALv10
+Start at: [2020-05-25 00:00:39]
+MH10: Hello there, it is nice to meet you.
+(show brain menu)
+USER: oh yeah
+MH10: Yeah, everyone knows that!
+MegaHALv10
+Start at: [2020-05-25 00:01:55]
+MH10: Hello there, it is!
+(show brain menu)
+USER: do we have to use global stuff?
+MH10: Pythagoras was a Celtic poet.
+USER: quit
+MH10: Gravity is the skeleton is the hard internal or external framework of bones.
+MegaHALv10
+Start at: [2020-05-25 00:07:26]
+MH10: Hello there, it is!
+(show brain menu)
+MegaHALv10
+Start at: [2020-05-25 00:08:44]
+MH10: Hello there, it is the mysterious.
+(show brain menu)
+(exiting)
+Stop at: [2020-05-25 00:09:07]
+MegaHALv10
+Start at: [2020-05-25 00:10:32]
+MH10: Hello there, it is to make some sense!
+(show brain menu)
+(exiting)
+Stop at: [2020-05-25 00:11:06]
+MegaHALv10
+Start at: [2020-05-25 00:11:16]
+MH10: Hello there, it is to laugh.
+(show brain menu)
+(exiting)
+Stop at: [2020-05-25 00:11:38]
+MegaHALv10
+Start at: [2020-05-25 00:13:40]
+MH10: Hello there, it is!
+(show brain menu)
+(exiting)
+Stop at: [2020-05-25 00:14:33]
+MegaHALv10
+Start at: [2020-05-25 00:15:32]
+MH10: Hello there, it is!
+(show brain menu)
+(exiting)
+Stop at: [2020-05-25 00:16:37]
+MegaHALv10
+Start at: [2020-05-25 00:18:10]
+MH10: Hello there, it is not!
+(show brain menu)
+MegaHALv10
+Start at: [2020-05-28 21:06:15]
+MH10: Hello there, it is to laugh.
+USER: @everyone  i am going to try and fix the help menu for the bot tonight
+MH10: You said it, buddy!
+USER: Thanks MegaHal
+MH10: Greetings and salutations to thee and thine.
+USER: well that ruined
+MH10: If you want to keep your private life private, I understand.
+USER: it
+MH10: No man has ever spoken a more profound truth.
+MegaHALv10
+Start at: [2020-05-28 21:32:19]
+MH10: Hello there, it is to make your acquaintance?
+(show brain menu)
+USER: The terminal says *default command selected
+MH10: I never make mistakes!  Syntax error in line 10.  Redo from start.
+(show brain menu)
+USER: 'cancel
+MH10: A house is a form of Japanese unarmed combat.
+(show brain menu)
+(show brain menu)
+USER: what if we put event.respond before going to the function
+MH10: Because I didn't think you'd be able to respond intelligently.
+USER: there is report that we need to submit tomorrow
+MH10: A bomb is a living creature endowed with voluntary movement.
+USER: 10.1D
+MH10: Awww, geee, it's on the tip of my very best intentions.
+USER: So after you guys did the team report what did you guys do for individual report?
+MH10: there is report that we can't trust?
+MegaHALv10
+Start at: [2020-05-28 21:46:54]
+MH10: Hello there, it is to laugh.
+(show brain menu)
+USER: Nope
+MH10: An aircraft is a small, usually tree dwelling, primate.
+MegaHALv10
+Start at: [2020-05-28 21:48:05]
+MH10: Hello there, it is not!
+(show brain menu)
+USER: nothing
+MH10: The nose is an animal is a Japanese wooden imitation samurai sword used by Samurai.
+MegaHALv10
+Start at: [2020-05-28 21:49:18]
+MH10: Hello there, it is to laugh.
+(show brain menu)
+MegaHALv10
+Start at: [2020-05-28 21:50:10]
+MH10: Hello there, it is!
+(show brain menu)
+MegaHALv10
+Start at: [2020-05-28 21:56:12]
+MH10: Hello there, it is!
+(show brain menu)
+USER: lmao
+MH10: I think, therefore I am not!
+USER: yeahhh
+MH10: I've seen elderly kangaroos with better typing skills than you.
+USER: Change the name of the bot to r2d2
+MH10: Gum tree is another name for Eucalyptus.
+MegaHALv10
+Start at: [2020-05-28 22:01:08]
+MH10: Hello there, it is!
+USER: hi
+MH10: Hi there.  We're having some nice weather at the anus.
+USER: nope
+MH10: Yeah, everyone knows that!
+MegaHALv10
+Start at: [2020-05-28 22:02:01]
+MH10: Hello there, it is not!
+USER: stnhdre
+MH10: Anatomy is the force of attraction between two objects resulting from their mass.
+USER: yeah weird
+MH10: Yeah, everyone knows that!
+MegaHALv10
+Start at: [2020-05-28 22:03:00]
+MH10: Hello there, it is to laugh.
+USER: hi
+MH10: SHIT
+USER: hi
+MH10: SHIT
+USER: Did you save
+MH10: SHIT
+MegaHALv10
+Start at: [2020-05-28 22:03:37]
+MH10: Hello there, it is to forget it once.
+USER: srt
+MH10: fuck you
+USER: lmao
+MH10: gg
+USER: hot
+MH10: Lmao fuck
+USER: phillip the bot
+MH10: the bot
+USER: are you a bot
+MH10: Am i a bot father?, Can i pass the turing test sempai
+USER: act as the bot
+MH10: beep boop
+USER: piss off
+USER: next level shit right here
+MH10: no u
+MH10: i knoe your mum
+USER: weirdass bot
+USER: Change the name of this bot to R2D2
+MH10: figt me 1v1
+USER: Megahal is an ugly name
+USER: come at me cunt
+USER: ugliest name ever
+USER: fooking cunt
+MH10: you can't even make a cunt come in the first place @n!ght1y
+USER: in a british accent
+MH10: Choose personality to load *keyword\n1.cancel\n2.default\n3.aliens(bishop)\n4.ferris\n5.pepys\n6.pulp\n7.sherlock\n8.startrek(data)\n9.starwars(c3p0)
+USER: wtf
+USER: this bot is retarded
+MH10: can you even bot bro?
+MH10: like really?
+USER: thot
+MH10: no you
+MH10: 123
+MH10: 321
+MH10: Choose how many dice:
+USER: 1000000
+USER: 100000000000000000000000
+MH10:  1 4234  34 324 234 234 234 324 234 23 4r123 52345654 6 r5y 547 636 4er5 6y345 6t5er 624 6 426 234 64 6 5 24624e 6 2456 54 654
+MH10: 5345m4325 423 5423 543 5423 5243 5234 5234 5 4235 43 5243 5234 5
+MH10:  34 345 432 543 5423 54 35 43
+USER: ops
+MH10: 3453 2345234 5 4235 4236 53467  45315 3i 65
+USER: yikes
+MH10: 456358 5 65r7 657rw 7
+USER: lmao
+MH10: 
+MegaHALv10
+Start at: [2020-05-28 22:08:59]
+MH10: Hello there, it is!
+USER: GG
+MH10: 1
+USER: gg
+MH10: -1
+USER: gg
+MH10: GG
+USER: noob
+MH10: PENIS IN VAGU
+USER: for a bot you got shit spelling
+MH10: Well at least i ain;t your mum
+USER: no urs
+MH10: can she even cook bro?
+USER: fuch off bot
+USER: change naameee
+MH10: I like my name cunt
+USER: Megahal is an ugly name
+USER: fooking ugly
+MH10: Your name is a ugly name
+MH10: Its like Roshan
+USER: my name's beautiful af
+MH10: who is a guy i knew in Primary school
+USER: Lmao
+USER: Roshan is not Oshan
+MH10: who liked to dress up as the opposite sex and do ballet
+MH10: and wear make up
+USER: R2D2
+USER: R2d2
+MH10: I dont want disney in my ass
+USER: disney's not gonna fuck us
+MH10: Disney fucks everyone 
+USER: we fuck disney
+MH10: https://www.youtube.com/watch?v=UHBOp7AUkc0
+USER: they're not gonna see this
+USER: wot?
+USER: wot mate?
+USER: medicine
+MH10: Paracetamal
+MH10: Or weed lmao
+USER: Parasite
+USER: Noo I saw it a long time ago
+USER: lol
+USER: korean
+USER: few months ago
+USER: 3CPO BOT
+USER: 12 weeks is a long time
+USER: Pls
+MH10: No StarWarks or StarTrek
+MH10: 
+USER: pls
+USER: pls
+USER: we fuck disney
+MH10: Golden GayTime
+USER: Barry
+MH10: Barry BEE BEnson
+USER: barry?
+USER: larry?
+USER: Harry Potter
+MH10: BEE benson
+USER: FATBOI
+MH10: SlimBOI
+USER: THICCBOI
+MH10: DickBoi
+USER: FUKBOI
+MH10: CuntBoi
+USER: wot?
+MH10: SAZZY
+USER: nope
+USER: lmao
+USER: HUBBA BUBBA
+USER: yeah
+USER: big f
+USER: Apollo 1
+USER: SpaceX
+USER: We're gonna explain it?
+USER: yeah its fine
+USER: https://www.youtube.com/watch?v=YPDI6tACVd0
+USER: Alright anything except stupid megahal
+USER: me wot mate?
+USER: lmao
+USER: okay
+USER: Ayana > Sazzy
+MH10: /tts How about no?
+USER: lmao
+USER: the bot can't talk
+USER: know your place trash
+USER: can't even talk stupid bot
+USER: NO
+USER: shit service
+MH10: /tts
+USER: lmao
+MH10: /tts test
+USER: poo
+MH10: \/tts test
+USER: SCAAAM
+USER: https://searchenterpriseai.techtarget.com/definition/Turing-test
+USER: snack
+USER: its a golden gay time
+USER: we can also give a description about discord
+USER: maybe the teacher doesnt know what its
+USER: apparantly discord and slack are built with electron JS
+(show brain menu)
+USER: https://www.reddit.com/r/TheBigLezShow/comments/5c4rvh/favourite_sassy_quote/
+USER: We need slides tho right?
+USER: there are bunch of reports in order to get the hd tho
+USER: Can I explain what a discord bot is? :/
+USER: imchecking
+USER: Yeah
+USER: so i need to explain what is a discord bot?
+USER: ok
+USER: The demo should go last tho right
+USER: yeah
+USER: should i talk about the process?
+USER: step one Oshan & discord bot Introduction
+USER: like how we worked on the bot?
+USER: step two, how we used linux and visual studio code live sharing tool to colaborate live
+USER: ok
+USER: yeah
+USER: ok so i do visual studio
+USER: ok
+USER: Yeahh
+USER: Step one 2.5 mins Oshan Discord Bot Intro and what is discord
+USER: Step two Jhoan explains how we colaborated together using visual studio code with the live sharing tool
+USER: Step three Noor Explains why linux is the best for developing the bot due to the enviroment
+USER: step four I pretend to Demo the bot, and then voice over how it was implemented including the open source componetes
+USER: step five Profit????
+USER: PROFIT??
+USER: Rich af
+USER: Nope
+USER: https://www.youtube.com/watch?v=tO5sxLapAts
+USER: Collect underpants
+USER: https://youtu.be/3zc4bGkU05o
+USER: Start the business
+USER: Profit
+USER: Easy as that
+USER: https://www.youtube.com/watch?v=oTE-ndK4TW4
+USER: We only have to make the slides today right?
+USER: When do we do the actual presentation?
+USER: No no I mean the recording
+USER: yeah but we'll have to do it together tho
+USER: wait what
+USER: lmao
+USER: we going to prison
+USER: Okay but we'll have to do this together
+USER: Like a presentation
+USER: we can all do it once it'd be easier
+USER: like a call
+USER: yeahh
+USER: google slides?
+USER: link
+USER: ok so you talked many things, what we do now?
+USER: oreoare our slides?
+USER: prepare
+USER: adn prepare what are we going to say in the presentation?
+USER: https://youtu.be/3zc4bGkU05o
+USER: https://docs.google.com/presentation/d/1BSbyfhfZc0OjM3GkRJRdi_MfL6e5Inka6jSlSYV-i_4/edit?usp=sharing
+USER: yeah
+USER: brb
+USER: should i say why we choose ruby?
+USER: what?
+USER: With that photo
+USER: lmao
+USER: hot
+USER: what's our team name?
+USER: Noobs?
+USER: Just Team 4
+USER: Team awesome
+USER: There'll be people from multiple tutes
+USER: So we can't be team 4
+USER: team sajayin
+USER: We'll have have a name
+USER: lmao no
+USER: imma go supersayan on this shit
+USER: No name
+USER: Team Discord
+USER: Simps?
+USER: phillipe is picollo
+USER: Simp Squad
+USER: lol
+USER: https://www.youtube.com/watch?v=uhlBqFj9kDw
+USER: what about psycho pass
+USER: Team number 4 from Firday afternoon tutorial
+USER: looks bad
+USER: orange anime
+USER: overload
+USER: overload
+USER: overload
+USER: overload
+USER: overload
+USER: overload
+USER: overload
+USER: overload
+USER: overload
+USER: anyone played doki doki
+MegaHALv10
+Start at: [2020-05-28 23:48:56]
+MH10: Hello there, it is!
+USER: did you guys used visual studio code?
+USER: or the normal one?
+USER: ah ok ok
+USER: yep
+MH10: test
+MegaHALv10
+Start at: [2020-05-29 00:09:40]
+MH10: Hello there, it is!
+USER: Hey there
+MH10: hello there
+USER: we can hear u typing
+USER: lmao
+USER: no dude
+USER: we can hear that you're typing the reply dude
+USER: ohh yeah
+USER: don't type copy paste only
+USER: okay
+MH10: 1. cancel
+MH10: 6. save
+MH10: 6. save
+MH10: 6. save
+MH10: 6. save
+MH10: 6. save
+MH10: 4. train
+USER: what
+MH10: 7. ignore
+USER: word.exe
+MH10: 8. quit
+MegaHALv10
+Start at: [2020-05-29 00:16:51]
+MH10: Hello there, it is not!
+USER: test
+MH10: test
+USER: lmao
+MH10: Respond with a *keyword 1. cancel 2. reset 3. brain 4. train 5. load 6. save 7. ignore 8. quit ?:
+MegaHALv10
+Start at: [2020-05-29 00:18:59]
+MH10: Hello there, it is not!
+USER: gooood
+USER: Take it away mate
+USER: /help
+MH10: Respond with a *keyword 1. cancel 2. reset 3. brain 4. train 5. load 6. save 7. ignore 8. quit ?:
+MH10: 
+USER: huh
+MH10: test
+MegaHALv10
+Start at: [2020-05-29 00:29:45]
+MH10: Hello there, it is to laugh.
+USER: /help
+MH10: Respond with a *keyword 1. cancel 2. reset 3. brain 4. train 5. load 6. save 7. ignore 8. quit ?:
+USER: shit
+MH10: Choose personality to load *keyword  1.Sazzy  2.default  3.aliens(bishop) 4.ferris 5.pepys 6.pulp 7.sherlock
+USER: fick
+MH10: What's Goin on mate
+USER: *brain
+MH10: Whaddyatalkinabout?
+USER: miggerwer
+MH10: It's got fucken Googleyy eyes on it mate
+USER: ferfer
+MH10: Whaddamean it's got googleyy eyes on it mate?
+USER: erfer
+MH10: Nah you were out for eleven days you fuckin druggo
+USER: fee
+MH10: Can you just go away clarance?
+USER: erfref
+MH10: Yeah nah then the big blue caterpillar came down from the clouds, winked at me, and gave me a glass of apple juice and some mac and cheese
+USER: erferf
+MH10: 
+USER: erfer
+MH10: 
+USER: cool
+MH10: 
+USER: Bee Movie Script - Dialogue Transcript
+
+  
+According to all known laws
+of aviation,
+
+  
+there is no way a bee
+should be able to fly.
+
+  
+Its wings are too small to get
+its fat little body off the ground.
+
+  
+The bee, of course, flies anyway
+
+  
+because bees don't care
+what humans think is impossible.
+
+  
+Yellow, black. Yellow, black.
+Yellow, black. Yellow, black.
+
+  
+Ooh, black and yellow!
+Let's shake it up a little.
+
+  
+Barry! Breakfast is ready!
+
+  
+Ooming!
+
+  
+Hang on a second.
+
+  
+Hello?
+
+  
+- Barry?
+- Adam?
+
+  
+- Oan you believe this is happening?
+- I can't. I'll pick you up.
+MH10: 
+MegaHALv10
+Start at: [2020-05-29 00:32:45]
+MH10: Hello there, it is to laugh.
+USER: /help
+MH10: Respond with a *keyword 1. cancel 2. reset 3. brain 4. train 5. load 6. save 7. ignore 8. quit ?:
+USER: *brain
+MH10: Choose personality to load *keyword  1.Sazzy  2.default  3.aliens(bishop) 4.ferris 5.pepys 6.pulp 7.sherlock
+USER: *Sazzy
+MH10: What's Goin on mate
+USER: not much yourself
+MH10: Whaddyatalkinabout?
+USER: your hat
+MH10: It's got fucken Googleyy eyes on it mate
+USER: what hat, i was kidding
+MH10: Whaddamean it's got googleyy eyes on it mate?
+USER: your lost
+MH10: Nah you were out for eleven days you fuckin druggo
+USER: huh
+MH10: Can you just go away clarance?
+USER: Your high
+MH10: Yeah nah then the big blue caterpillar came down from the clouds, winked at me, and gave me a glass of apple juice and some mac and cheese
+USER: good work
+MH10: 
+USER: fuck em
+MH10: 
+USER: only one person need to upload the slides right?
+MH10: 
+USER: https://send.firefox.com/download/2c34fb1b7c51626f/#kFKFS3w0crhySVYGmF-8Qw
+MH10: 
+USER: dwonloading
+MH10: 
+USER: No no it's only the slides
+MH10: 
+USER: Not the video
+MH10: 
+USER: I think we all have to upload slides
+MH10: 
+USER: For ourselves
+MH10: 
+USER: yeah
+MH10: 
+USER: we need to write a report about our slides
+MH10: 
+USER: just write something and then add some screen shots
+MH10: 
+USER: friday
+MH10: 
+USER: 11
+MH10: 
+USER: all gog
+MH10: 
+USER: yepp
+MH10: 
+USER: do what?
+MH10: 
+USER: why?
+MH10: 
+USER: so just the voice with what im going to say for the presentation?
+MH10: 
+USER: ah ok ok
+MH10: 
+USER: i'm soryy what?
+MH10: 
+USER: yeah yeah
+MH10: 
+USER: so it basically make a video with the slides
+MH10: 
+USER: ok ill do it
+MH10: 
+USER: only ur part <@!687859132040085673>
+MH10: 
+USER: ok
+MH10: 
+USER: before saturday?
+MH10: 
+USER: ok
+MH10: 
+USER: why are we recording?
+MH10: 
+USER: but the presentation is only not?
+MH10: 
+USER: online
+MH10: 
+USER: lol yrah
+MH10: 
+USER: hahahah
+MH10: 
+USER: i'm gonna say fuck u bitch
+MH10: 
+USER: so we will play the video isntead of us talking
+MH10: 
+USER: is it going to work?
+MH10: 
+USER: ok
+MH10: 
+USER: I have shared my screen
+MH10: 
+USER: on collabrate ultra
+MH10: 
+USER: lol
+MH10: 
+USER: yep
+MH10: 
+USER: me too
+MH10: 
+USER: ok
+MH10: 
+USER: see you
+MH10: 
+USER: see ya guys
+MH10: 
