@@ -94,7 +94,7 @@ GEM
       sawyer (~> 0.8.0, >= 0.5.3)
     opus-ruby (1.0.1)
       ffi
-    psych (3.1.0)
+    psych (2.2.4)
     public_suffix (4.0.1)
     rack (2.0.7)
     rainbow (3.0.0)
@@ -134,7 +134,7 @@ GEM
     simplecov-html (0.10.2)
     sooth (2.2.1)
     thread_safe (0.3.6)
-    tzinfo (1.2.5)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     unf (0.1.4)
       unf_ext
